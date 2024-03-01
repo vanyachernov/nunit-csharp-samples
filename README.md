@@ -12,5 +12,3 @@
 2. [Book Articul](nunit-csharp-samples/Docs/step2.md)
 3. [Library Statistics](nunit-csharp-samples/Docs/step3.md)
 4. [Unit Tests](nunit-csharp-samples/Docs/step4.md)
-
-![image](https://github.com/vanyachernov/nunit-csharp-samples/assets/84381986/663a1e18-4863-4f99-a8d9-5361dacdb78f)
