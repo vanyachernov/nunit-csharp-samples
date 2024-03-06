@@ -34,5 +34,5 @@ public class LibraryManager : ILibraryManager
         _books.remove(book);
         // TODO step 1.
     }
-    public string Articul { get; set; }
+    
 }

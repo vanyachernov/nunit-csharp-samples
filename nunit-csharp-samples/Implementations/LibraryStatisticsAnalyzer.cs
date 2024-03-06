@@ -14,8 +14,16 @@ public class LibraryStatisticsAnalyzer
     /// <returns>Book list.</returns>
     public List<Book> GetBooksByAuthor(string author)
     {
+        List<Book> books;
+        foreach (Book b in _books){
+            if(author == b.Author){
+                books.add(b)
+                break;
+            }
+        }
+
         // TODO step 3.
-        return [];
+        return books;
     }
     
     /// <summary>
@@ -26,7 +34,15 @@ public class LibraryStatisticsAnalyzer
     public Book GetBookByTitle(string title)
     {
         // TODO step 3.
-        return new Book();
+        foreach (Book b in _books){
+            if(title == b.Title){
+                return b;
+                break;
+            }
+            else{ return null}
+        }
+
+        // TODO step 3.
     }
 
     /// <summary>
@@ -36,7 +52,12 @@ public class LibraryStatisticsAnalyzer
     /// <returns>Book.</returns>
     public Book GetBookByArticul(string articul)
     {
-        // TODO step 3.
-        return new Book();
+        foreach (Book b in _books){
+            if(articul == b.Articul){
+                return b;
+                break;
+            }
+            else{ return null}
+        }
     }
 }
